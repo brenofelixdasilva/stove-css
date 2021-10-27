@@ -1,0 +1,116 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+body {
+    background: #172356;
+}
+
+.container {
+    background: white;
+    border-radius: 10px;
+    width: 300px;
+    height: 350px;
+    position: relative;
+}
+
+.leftMounth {
+    border: 8px solid black;
+    background: #332f2f;
+    width: 96px;
+    height: 9px;
+    position: absolute;
+    left: 22px;
+    top: -17px;
+    border-radius: 18px 18px 0px 0px;
+
+}
+
+.rightMounth {
+    border: 8px solid black;
+    background: #332f2f;
+    width: 96px;
+    height: 9px;
+    position: absolute;
+    right: 22px;
+    top: -17px;
+    border-radius: 18px 18px 0px 0px;
+}
+.painel {
+    border: 8px solid black;
+    background: #332f2f;
+    border-radius: 10px 10px 0px 0px;
+    height: 61px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer {
+    border: 8px solid black;
+    background: #5a7066c9;
+    width: 30px;
+    height: 15px;
+    position: absolute;
+    top: 20px;
+}
+
+.painel > #buttons > input[type="checkbox"] {
+    border: 8px solid black;
+    background: #b3a8a8;
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 15px
+
+}
+
+.oven {
+    border: 8px solid black;
+    background: #ddd6d6;
+    border-radius: 0px 0px 10px 10px;
+    width: 284px;
+    height: 265px;
+    position: absolute;
+    bottom: 8px;
+    position: relative;
+}
+
+#door {
+    border: 8px solid black;
+    background: #828282;
+    height: 207px;
+    width: 246px;
+    position: absolute;
+    left: 11px;
+    bottom: 34px;
+}
+
+#puller {
+    background: black;
+    height: 10px;
+    width: 138px;
+    position: absolute;
+    left: 54px;
+    top: 13px;
+    border-radius: 10px;
+
+}
+
+#glass {
+    border: 8px solid black;
+    background: #000000e6;
+    position: absolute;
+    width: 188px;
+    height: 129px;
+    bottom: 26px;
+    left: 21px;
+}
+  
